@@ -1,4 +1,4 @@
-# AI/ML Internship @ Excellence Delivered (EXD)
+# <center> AI/ML Internship @ Excellence Delivered (EXD) </center>
 
 <p align="center">
   <img src="./exd-logo.png" width="50%">
