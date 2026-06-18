@@ -1,7 +1,7 @@
 # AI/ML Internship @ Excellence Delivered (EXD)
 
 <p align="center">
-  <img src="./exd-logo.png" width="100%">
+  <img src="./exd-logo.png" width="50%">
 </p>
 
 ## About This Repository
