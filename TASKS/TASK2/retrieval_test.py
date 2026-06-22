@@ -28,11 +28,11 @@ queries = [
 
 model_names = ['all-MiniLM-L6-v2', 'all-mpnet-base-v2', 'BAAI/bge-small-en-v1.5']
 
-print("🚀 Starting Mini Retrieval Test...\n")
+print(" Starting Mini Retrieval Test...\n")
 
 for model_name in model_names:
     print("=" * 60)
-    print(f"🤖 EVALUATING MODEL: {model_name}")
+    print(f" EVALUATING MODEL: {model_name}")
     print("=" * 60)
     
     model = SentenceTransformer(model_name)
@@ -45,8 +45,8 @@ for model_name in model_names:
         
         top_3_indices = np.argsort(similarities)[::-1][:3]
         
-        print(f"\n🔍 Query: '{query}'")
-        print("📋 Top 3 Retrieved Results:")
+        print(f"\n Query: '{query}'")
+        print(" Top 3 Retrieved Results:")
         for rank, idx in enumerate(top_3_indices, 1):
             score = similarities[idx]
             print(f"  {rank}. [Score: {score:.4f}] {documents[idx]}")
